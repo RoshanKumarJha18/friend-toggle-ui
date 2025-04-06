@@ -1,0 +1,57 @@
+@font-face {
+    font-family: gilroy;
+    src: url(Gilroy-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(90, 135, 218);
+
+}
+#card{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    
+}
+#card img{
+    width: 100%;
+    height:58% ;
+    object-fit: cover;
+    object-fit: center;
+    padding: 40px 30px;
+}
+#card h2{
+    font-size: 27px;
+    text-align: center;
+    
+}
+#card h3{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+}
+#card button{
+    margin-left: 8vw;
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
